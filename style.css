@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #121214;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: auto;
+}
+
+.top-of-site {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 32px;
+    gap: 20px;
+}
+
+.image-gabriel {
+    width: 80px;
+    height: 80px;
+}
+
+.element1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.element1:hover {
+    color: #7CFC00;
+    cursor: pointer 
+} 
+
+.btn {
+    border-style: none;
+    background-color: #7CFC00;
+    border-radius: 16rem;
+    height: 50px;
+    width: 200px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+
+    translate: transform .5s;
+}
+
+/*Button animation*/
+
+.btn:hover {
+    transform: scale(0.96);
+    background-color: #5f5f60;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    place-items: center;
+}
+
+.about-work {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    margin: 40px;
+}
+
+.about-work-title {
+    color: #7CFC00;
+    font-size: 30px;
+}
+
+
+.about-work-paragraph { 
+    color: #fff;
+    font-size: 20px;
+}
+
+strong {
+    color: #ADFF2F;
+}
+
+.projects {
+    margin-top: 100px;
+}
+
+.projects-ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.projects-title {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    place-content: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #ADFF2F;
+}
+
+.projects-paragraph {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    place-content: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    margin-left: 20px;
+} 
+
+.image1{
+    border-radius: 10px;
+    translate: transform .7s;
+}
+
+.image1:hover{
+    transform: scale(1.1);
+}
+
+.image2 {
+    border-radius: 10px;
+    translate: transform .7s;
+}
+
+
+.image2:hover {
+    transform: scale(1.1);
+}
+
+.last-thing-of-site {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    margin: 100px;
+    gap: 20px;
+}
+
+.credits {
+    font-family: 'Nunito', sans-serif;
+    font-size: 32px;
+    
+}
+
+.creator {
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #395b06;
+    border-radius: 50rem;
+    margin-bottom: 40px;
+}
+
+.redes:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    
+}
+
+/*Animation*/
+
+main div {
+    animation: fromTop .4s backwards;
+}
+
+main div:nth-child(1) {
+    animation-delay: .8s;
+}
+
+main div:nth-child(2) {
+    animation-delay: .12s;
+
+}
+
+main div:nth-child(3) {
+    animation-delay: .16s;
+}
+
+main div:nth-child(4) {
+    animation-delay: .20s;
+}
+
+@keyframes fromTop {
+    from{
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
