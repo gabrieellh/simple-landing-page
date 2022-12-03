@@ -187,38 +187,3 @@ strong {
     cursor: pointer;
     
 }
-
-/*Animation*/
-
-main div {
-    animation: fromTop .4s backwards;
-}
-
-main div:nth-child(1) {
-    animation-delay: .8s;
-}
-
-main div:nth-child(2) {
-    animation-delay: .12s;
-
-}
-
-main div:nth-child(3) {
-    animation-delay: .16s;
-}
-
-main div:nth-child(4) {
-    animation-delay: .20s;
-}
-
-@keyframes fromTop {
-    from{
-        opacity: 0;
-        transform: translateY(-30px);
-    }
-
-    to{
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
