@@ -3,4 +3,5 @@ ScrollReveal({ distance: '15px' });
 sr.reveal('.top-of-site', {duration : 3000, origin: 'right'})
 sr.reveal('.main-content', {duration : 3000, origin: 'left'})
 sr.reveal('.projects', {duration : 3000,  origin: 'left'})
-sr.reveal('.redes', {duration : 3000,  origin: 'left'})
+sr.reveal('.creator', {duration : 3000,   origin:  'left'})
+sr.reveal('.redes', {duration : 300,  origin: 'left'})
